@@ -4,6 +4,7 @@ $color-pale:lightcyan;
 $color-mid: deepskyblue;
 $color-dark: darkturquoise;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -64,6 +65,7 @@ header {
     z-index: 100;
 }
 
+<<<<<<< HEAD
 .full-width {
     width: 100vw;
     position: relative;
@@ -656,5 +658,18 @@ input[type=range]::-webkit-slider-thumb {
 @media(max-width: 500.5px) {
     .pagination {
         display: none
+=======
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+>>>>>>> a3516202646a45f5dc70f8ecac2a4d752265f4bd
     }
 }

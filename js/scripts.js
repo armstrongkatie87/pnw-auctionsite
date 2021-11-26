@@ -13,6 +13,7 @@ $(function() {
     });
 });
 
+<<<<<<< HEAD
 // For Filters
 document.addEventListener("DOMContentLoaded", function() {
     var filterBtn = document.getElementById('filter-btn');
@@ -139,3 +140,17 @@ document.addEventListener("DOMContentLoaded", function() {
     thumbRight.classList.remove("active");
     });
     });
+=======
+$(document).ready(function(){
+	$('#reserveButton').click(function(){
+  		$('#reserveModal').modal('show')
+	});
+});
+
+$(document).ready(function(){
+	$('#loginButton').click(function(){
+  		$('#loginModal').modal('show')
+	});
+});
+
+>>>>>>> a3516202646a45f5dc70f8ecac2a4d752265f4bd
